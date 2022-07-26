@@ -1,0 +1,22 @@
+### Params: wrist video
+# ./bin/Eulerian_Motion_Magnification test/test_wrist.param
+
+#input_filename		= data/ds_20220725_cropped.avi
+#output_filename		= data/ds_20220725_cropped_mag.avi
+input_filename		= data/iy_20220725_2_cropped.avi
+output_filename		= data/iy_20220725_2_cropped_mag.avi
+
+input_width			= -1
+input_height		= -1
+output_width		= -1
+output_height		= -1
+
+alpha				= 10
+lambda_c			= 16
+cutoff_freq_low		= 0.1
+cutoff_freq_high	= 1.2
+chrom_attenuation	= 0.1
+exaggeration_factor	= 2.0
+delta				= 0
+lambda				= 0
+levels				= 6
